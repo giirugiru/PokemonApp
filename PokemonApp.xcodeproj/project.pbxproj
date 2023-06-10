@@ -12,6 +12,10 @@
 		E9FD1BB72A31747C00671749 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD1BB62A31747C00671749 /* MainVC.swift */; };
 		E9FD1BBC2A31747D00671749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FD1BBB2A31747D00671749 /* Assets.xcassets */; };
 		E9FD1BBF2A31747D00671749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FD1BBD2A31747D00671749 /* LaunchScreen.storyboard */; };
+		E9FD1BC82A34293000671749 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD1BC72A34293000671749 /* APIRequest.swift */; };
+		E9FD1BCA2A34296B00671749 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD1BC92A34296B00671749 /* NetworkResponse.swift */; };
+		E9FD1BCE2A342A4800671749 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD1BCD2A342A4800671749 /* Constants.swift */; };
+		E9FD1BD02A342E9700671749 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD1BCF2A342E9700671749 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E9FD1BBB2A31747D00671749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FD1BBE2A31747D00671749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9FD1BC02A31747D00671749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FD1BC72A34293000671749 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		E9FD1BC92A34296B00671749 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		E9FD1BCD2A342A4800671749 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E9FD1BCF2A342E9700671749 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		E9FD1BB12A31747C00671749 /* PokemonApp */ = {
 			isa = PBXGroup;
 			children = (
+				E9FD1BC62A34291400671749 /* Networking */,
 				E9FD1BB22A31747C00671749 /* AppDelegate.swift */,
 				E9FD1BB42A31747C00671749 /* SceneDelegate.swift */,
 				E9FD1BB62A31747C00671749 /* MainVC.swift */,
@@ -62,6 +71,17 @@
 				E9FD1BC02A31747D00671749 /* Info.plist */,
 			);
 			path = PokemonApp;
+			sourceTree = "<group>";
+		};
+		E9FD1BC62A34291400671749 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E9FD1BC72A34293000671749 /* APIRequest.swift */,
+				E9FD1BC92A34296B00671749 /* NetworkResponse.swift */,
+				E9FD1BCD2A342A4800671749 /* Constants.swift */,
+				E9FD1BCF2A342E9700671749 /* Networking.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9FD1BB72A31747C00671749 /* MainVC.swift in Sources */,
+				E9FD1BCA2A34296B00671749 /* NetworkResponse.swift in Sources */,
 				E9FD1BB32A31747C00671749 /* AppDelegate.swift in Sources */,
+				E9FD1BD02A342E9700671749 /* Networking.swift in Sources */,
+				E9FD1BCE2A342A4800671749 /* Constants.swift in Sources */,
+				E9FD1BC82A34293000671749 /* APIRequest.swift in Sources */,
 				E9FD1BB52A31747C00671749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
