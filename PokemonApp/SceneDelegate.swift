@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         
-        let vc = MainVC()
+        let vc = PokemonDetailVC()
         let navigationController = UINavigationController.init(rootViewController: vc)
         
         window?.rootViewController = navigationController
